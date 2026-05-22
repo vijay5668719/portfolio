@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xyz | ECE Portfolio</title>
+    <link rel="stylesheet" href="v.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">xyz<span>.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>xyz</span></h1>
+            <h2>3rd Year ECE Student @ abc college</h2>
+            <p>Bridging the gap between hardware prototyping and modern software solutions. I build systems that are accurate, brief, and clear.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <p>As a passionate Electronics and Communication Engineering student, I thrive on building end-to-end systems. Whether I'm wiring microcontrollers on a breadboard or designing clean mobile UI components, I focus on creating efficient, real-world solutions.</p>
+            <p>Currently seeking 2026 internship opportunities to apply my knowledge of embedded hardware and backend integration in a professional environment.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Hardware & IoT</h3>
+                <p>ESP8266, Sensor Integration (DHT11, MQ135), Circuit Prototyping</p>
+            </div>
+            <div class="skill-card">
+                <h3>Software & Mobile</h3>
+                <p>Kotlin, Jetpack Compose, UI/UX Design</p>
+            </div>
+            <div class="skill-card">
+                <h3>Backend & Systems</h3>
+                <p>Supabase (RPCs, Auth), NFC Protocols, Idempotent Payment Logic</p>
+            </div>
+            <div class="skill-card">
+                <h3>Core Engineering</h3>
+                <p>Technical Communication, Project Documentation, System Analysis</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>NFC Cashless Payment System</h3>
+                <p>A closed-loop payment architecture designed for game zones. Utilized Kotlin for the mobile POS interface and integrated Supabase for secure, idempotent transaction handling via a custom offline deduction protocol.</p>
+                <div class="tags"><span>Kotlin</span><span>Supabase</span><span>NFC</span></div>
+            </div>
+            <div class="project-card">
+                <h3>IoT Environment Monitor</h3>
+                <p>An embedded hardware prototype built around the ESP8266 microcontroller. Designed to capture and transmit real-time humidity and air quality metrics using DHT11 and MQ135 sensors.</p>
+                <div class="tags"><span>ESP8266</span><span>C++</span><span>IoT Sensors</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Let's Connect</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 xyz. Designed with precision.</p>
+    </footer>
+</body>
+</html>
